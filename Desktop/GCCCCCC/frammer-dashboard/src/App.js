@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, createContext, useContext } from "react";
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend, AreaChart, Area } from "recharts";
 
-const API = "http://localhost:8000/api";
+const API = "https://dashboard-3qdy.onrender.com";
 const COLORS = ["#00D2FF", "#7B61FF", "#FF6B6B", "#FFD93D", "#6BCB77", "#FF8C42", "#C5A8FF", "#FF9EBB"];
 
 // ─── DATA CONTEXT ─────────────────────────────────────────────────────────────
